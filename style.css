@@ -1,0 +1,129 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img{
+	max-width: 100%;
+}
+
+.logo{
+	width: 80px;
+}
+
+body{
+	font-family: 'Rubik Bubbles';
+}
+
+p{
+	font-family: 'Lato';
+}
+
+a{
+	font-family: 'Lato';
+}
+
+h1{
+	color: chocolate;
+	font-size: 35px;
+	margin-bottom: 20px;
+}
+
+nav{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 10%;
+	padding-right: 10%;
+	text-align: center;
+	background: tomato;
+}
+
+nav a{
+	color: white;
+	margin-right: 20px;
+	margin-left: 20px;
+	text-decoration: none;
+	transition: 0.5s;
+
+}
+
+nav a:hover{
+	color: gold;
+}
+
+.banniere p{
+	margin-bottom: 20px;
+}
+
+.btn1{
+	color: red;
+	padding: 20px 40px;
+	display: inline-block;
+	text-decoration: none;
+	border: 2px solid red;
+	transition: 0.5s;
+}
+
+.btn1:hover{
+	background: blue;
+	border: 2px solid blue;
+	color: white;
+}
+
+.banniere{
+	background-image: url(https://www.patternpictures.com/wp-content/uploads/Light-wood-texture-macro-photo-patternpictures-1113.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	text-align: center;
+}
+
+.banniere p{
+	color: green;
+	font-size: 22px;
+}
+
+.about{
+	background: lavender;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+h2{
+	color: navy;
+	margin-bottom: 30px;
+}
+
+.portfolio{
+	background: pink;
+	padding: 80px 15%;
+}
+
+.grille-travail{
+	border: 4px solid red;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 40px;
+}
+
+.portfolio article{
+	border: 4px solid blue;
+}
+
+
+footer{
+	background: green;
+	color: white;
+	text-align: center;
+	padding: 15px 10%;
+}
+
+
+
+
+
+
